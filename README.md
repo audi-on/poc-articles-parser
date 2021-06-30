@@ -60,3 +60,11 @@ interface Template {
 - content.includes: content css selectors (intro, subtitle, paragraph)
 - content.excludes: called on each content.includes selector matched element. Exclude content if true.
 
+### Exercise
+
+In main.ts, complete the two empty templates for lesnumeriques.com and capital.fr so they can correctly parse these pages:
+
+- https://www.lesnumeriques.com/ordinateur-portable/galaxy-book-samsung-a-l-offensive-sur-le-marche-des-pc-n163201.html
+- https://www.capital.fr/votre-carriere/une-association-peut-elle-faire-un-don-1406629
+
+We only want the article's content, no author, date or redirection links.
