@@ -14,12 +14,18 @@ interface Template {
 }
 
 const queryElements: { [k: string]: Template } = {
+  'www.20minutes.fr': {
+    article: '#main-content',
+    title: '.nodeheader-title',
+    content: {
+      includes: '.hat-summary, .content > h2, .content > p',
+    },
+  },
   'www.lesnumeriques.com': {
     article: '',
     title: '',
     content: {
-      includes: '',
-      excludes: (p) => false,
+      includes: ''
     },
   },
   'www.capital.fr': {
